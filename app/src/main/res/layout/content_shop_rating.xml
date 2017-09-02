@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_shop_rating"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="www.alkaiyat.ahmad.net.ahmadalkaiyats.shopsDetails.ShopRating"
+    tools:showIn="@layout/activity_shop_rating">
+    
+    <TextView android:id="@+id/lblHowHappy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How happy are you with Housing?"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="16.80dp"
+        android:gravity="center"/>
+
+    <android.support.v7.widget.AppCompatRatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10.00dp"
+        android:rating="3"
+        android:stepSize="1"
+        android:numStars="5"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:isIndicator="false"
+        android:theme="@style/RatingBar"
+        />
+
+    <LinearLayout android:id="@+id/layoutForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <EditText android:id="@+id/txtComments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="47.50dp"
+            android:layout_marginLeft="47.50dp"
+            android:layout_marginRight="47.50dp"
+            android:lines="6"
+            android:background="@drawable/text_shape_drawable"
+            android:hint="Your Comments..."
+            android:textSize="@dimen/Edit_text_enter"
+            android:gravity="top|left"
+            android:padding="17.00dp"
+            android:textColorHint="@color/starNormalColor"
+            />
+
+        <Button android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17.00dp"
+            android:layout_marginLeft="47.50dp"
+            android:layout_marginRight="47.50dp"
+            android:theme="@style/MyButton"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView android:id="@+id/lblThanksFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.00dp"
+            android:text=" "
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="16.80dp"
+            android:gravity="center" />
+
+    </LinearLayout>
+</LinearLayout>

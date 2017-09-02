@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">FootJai</string>
+    <string name="action_settings">Settings</string>
+    <string name="tvusername">Username</string>
+    <string name="tvpassword">Password</string>
+    <string name="Blogin">Login</string>
+    <string name="BSignup">Sign Up </string>
+    <string name="tvRegisterHere">Register Here</string>
+    <string name="tvforgotpassword">Forgot Password?</string>
+    <string name="tvLoginfacebook">login via facebook</string>
+    <string name="tvlogin">Login</string>
+    <string name="tvsignup">Sign up</string>
+    <string name="tvFirstName">First Name</string>
+    <string name="tvLastName">Last Name</string>
+    <string name="tvEmailAddress">Email Address</string>
+    <string name="tvPhoneNumber">Phone Number</string>
+    <string name="tvCountry">Country</string>
+    <string name="title_activity_signup">Signup</string>
+    <color name="highlightedTextViewColor">#000088</color>
+    <color name="normalTextViewColor">#000044</color>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment_categories">Categories TAB</string>
+    <string name="hello_blank_fragment_MyList">My List TAB</string>
+    <string name="hello_blank_fragment_Trending">Trending TAB</string>
+    <string name="show_Categeory">Show Category</string>
+    <string name="action_add_MyList">Add to My List</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_About">About</string>
+    <string name="action_Contact">Contact</string>
+    <string name="action_BranchesAndLocation">Branches and Location</string>
+    <string name="action_Rate">Rate</string>
+    <string name="action_Report">Report</string>
+    <string name="title_activity_homepage">HomePage</string>
+    <string name="title_activity_shops">shops</string>
+    <string name="title_activity_categoryPage">Category Page</string>
+    <string name="tvContinueAsGust">continue as guest</string>
+    <string name="title_activity_shop_contact_us">ShopContactUs</string>
+    <string name="feedbacktitle">Please enter Your Feedback details</string>
+    <string name="feedbackname">Please enter your name</string>
+    <string name="feedbackemail">Please enter your Email Address</string>
+    <string name="feedbackbody">Please enter your feedback here !</string>
+    <string name="feedbackbutton">Send Feedback</string>
+    <string name="feedbacknumber">Please enter you number</string>
+    <string name="title_activity_contact_us">ContactUs</string>
+    <string name="title_activity_privacy_and_policy">PrivacyAndPolicy</string>
+    <string name="title_activity_shop_rating">ShopRating</string>
+    <string name="title_activity_shop_branch_location">shopBranchLocation</string>
+    <string name="title_activity_shop_report">ShopReport</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+    <string name="Username">Username</string>
+    <string name="AddToMyList">Add/Delete to My List</string>
+
+    <string name="facebook_app_id">407199556322430</string>
+
+
+</resources>

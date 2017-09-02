@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0E8D94</color>
+    <color name="colorPrimaryDark">#0b696e</color>
+    <color name="colorAccent">#919191</color>
+
+    <color name="orange">#FF3909</color>
+    <color name="colorAccentDark">#00B482</color>
+
+    <color name="colorBlack">#555555</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGrey">#707070</color>
+    <color name="colorGreyLight">#8A8A8A</color>
+
+    <color name="colorlighGrey">#D3D3D3</color>
+<!-- card View-->
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
+    <!-- Color Palette -->
+    <color name="starNormalColor">#c4c4c4</color>
+    <color name="starSelectedColor">#ffdc01</color>
+    <color name="colorMardiGras">#2D2C2D</color>
+    <color name="colorMediumPurple">#8C53E5</color>
+    <color name="colorPurpleHeart">#5E2EAA</color>
+    <color name="colorAmethyst">#824ED1</color>
+    <color name="colorCranberry">#DD467C</color>
+
+    <color name="Blue">#0000cc</color>
+
+    <!-- anroid ux Is -->
+
+    <color name="text">#666666</color>
+    <color name="sub_text">#919191</color>
+    <color name="sub_text_onboarding">#B7B7B7</color>
+
+    <color name="white">#ffffff</color>
+    <color name="green">#0D9F67</color>
+    <color name="stroke">#C7C7C7</color>
+
+    <color name="coffee">#DBC8A8</color>
+    <color name="background">#F3F3F3</color>
+
+    <color name="line">#E6E9ED</color>
+
+    <color name="unselected_slider">#4d848D9A</color>
+    <color name="selected_slider">#848D9A</color>
+</resources>

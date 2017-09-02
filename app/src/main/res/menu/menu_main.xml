@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="www.alkaiyat.ahmad.net.ahmadalkaiyats.MainActivity">
+
+    <item
+        android:id="@+id/action_About"
+        android:orderInCategory="100"
+        android:title="@string/action_About"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Contact"
+        android:orderInCategory="100"
+        android:title="@string/action_Contact"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_BranchesAndLocation"
+        android:orderInCategory="100"
+        android:title="@string/action_BranchesAndLocation"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Rate"
+        android:orderInCategory="100"
+        android:title="@string/action_Rate"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Report"
+        android:orderInCategory="100"
+        android:title="@string/action_Report"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_AddDelete"
+        android:orderInCategory="100"
+        android:title="@string/AddToMyList"
+        app:showAsAction="never" />
+
+
+</menu>
